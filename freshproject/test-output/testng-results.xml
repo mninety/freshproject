@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18932" started-at="2021-05-03T13:39:36 BDT" finished-at="2021-05-03T13:39:55 BDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18932" started-at="2021-05-03T13:39:36 BDT" finished-at="2021-05-03T13:39:55 BDT">
+      <class name="AdminPanelTests.Admin_Users">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:AdminPanelTests.Admin_Users@646d64ab]" name="setUp" is-config="true" duration-ms="2156" started-at="2021-05-03T13:39:36 BDT" finished-at="2021-05-03T13:39:38 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HelloWorld()[pri:0, instance:AdminPanelTests.Admin_Users@646d64ab]" name="HelloWorld" duration-ms="8814" started-at="2021-05-03T13:39:38 BDT" description="Hello World!" finished-at="2021-05-03T13:39:47 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelloWorld -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:AdminPanelTests.Admin_Users@646d64ab]" name="afterTest" is-config="true" duration-ms="7945" started-at="2021-05-03T13:39:47 BDT" finished-at="2021-05-03T13:39:55 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HelloWorld status=SUCCESS method=Admin_Users.HelloWorld()[pri:0, instance:AdminPanelTests.Admin_Users@646d64ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AdminPanelTests.Admin_Users -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
